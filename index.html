@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodyan HQ - Operaciones Claras. Crecimiento Inteligente.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="living-room">
+        <!-- Imagen del living (temporal hasta que tu hija haga el dibujo) -->
+        <img src="living-temporal.svg" alt="Living de Kodyan HQ" class="living-background" usemap="#living-map">
+        
+        <!-- Mapa de zonas cliqueables invisibles -->
+        <map name="living-map">
+            <!-- Zona Ventana (Eco) -->
+            <area shape="rect" coords="50,50,350,350" 
+                  href="https://koyhq.com/eco/" 
+                  alt="Kodyan Eco - Calculadoras ambientales"
+                  title="Ir a Kodyan Eco">
+            
+            <!-- Zona Sillón del pulpo (Care) -->
+            <area shape="rect" coords="450,150,750,400" 
+                  href="https://koyhq.com/care/" 
+                  alt="Kodyan Care - Primeros auxilios emocionales"
+                  title="Ir a Kodyan Care">
+            
+            <!-- Zona Repisa (3D) -->
+            <area shape="rect" coords="850,50,1150,350" 
+                  href="https://koyhq.com/eco/" 
+                  alt="Kodyan 3D - Diseño consciente"
+                  title="Ir a Kodyan 3D">
+        </map>
+        
+        <!-- Etiquetas flotantes sobre cada zona -->
+        <div class="label label-ventana" aria-hidden="true">🌿 Kodyan Eco</div>
+        <div class="label label-sillon" aria-hidden="true">💜 Kodyan Care</div>
+        <div class="label label-repisa" aria-hidden="true">🧡 Kodyan 3D</div>
+    </div>
+</body>
+</html>
